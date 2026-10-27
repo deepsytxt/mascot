@@ -1,0 +1,65 @@
+{
+  "backend": "auto",
+  "scale": 1.0,
+  "monitor": 0,
+  "layer": "top",
+  "fps": 60,
+  "floor_gap": 0,
+  "margin": 16,
+  "gravity": 2600,
+  "swing": 0.75,
+  "drop_in": false,
+  "workarea_insets": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "walk_speed": 52,
+  "sprint_speed": 140,
+  "watchers": {
+    "niri": true,
+    "notifications": true,
+    "system": true,
+    "music": true,
+    "time": true
+  },
+  "idle": {
+    "gap": [
+      8,
+      18
+    ],
+    "sleep_after": 900,
+    "weights": {
+      "walk": 3,
+      "look": 3,
+      "stretch": 2,
+      "yawn": 1.5,
+      "wink": 1,
+      "sprint": 0.6
+    }
+  },
+  "interaction": {
+    "follow_cursor": true,
+    "follow_chance": 0.18,
+    "follow_cooldown": 35,
+    "follow_duration": 4,
+    "petting": true
+  },
+  "music": {
+    "mode": "auto",
+    "poll_interval": 1,
+    "metadata_grace": 4,
+    "allow_players": [],
+    "deny_players": []
+  },
+  "notifications": {
+    "cooldown": 12,
+    "ignore_apps": []
+  },
+  "system": {
+    "poll_interval": 10
+  },
+  "reaction_cooldown": 8,
+  "app_reactions": []
+}

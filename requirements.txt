@@ -1,0 +1,10 @@
+Pillow>=10
+numpy>=1.24
+scipy>=1.10
+psutil>=5.9
+PySide6>=6.6
+pytest>=8
+# Windows 10/11 media-session bridge (GSMTC); skipped on Linux/macOS.
+winrt-runtime>=2.0.0; platform_system == "Windows"
+winrt-Windows.Media>=2.0.0; platform_system == "Windows"
+winrt-Windows.Media.Control>=2.0.0; platform_system == "Windows"
